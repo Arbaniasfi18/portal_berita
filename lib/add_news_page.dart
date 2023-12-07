@@ -101,7 +101,7 @@ class _AddNewsState extends State<AddNews> {
                   },
                 ),
                 const SizedBox(height: 20,),
-                Text("Pulau", style: textTitleDetailPage,),
+                Text("Daerah", style: textTitleDetailPage,),
                 DropdownButton(
                   hint: const Text("Semua"),
                   value: island,

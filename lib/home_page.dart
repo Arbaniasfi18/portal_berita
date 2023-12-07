@@ -200,7 +200,7 @@ class _HomePageState extends State<HomePage> {
                 width: MediaQuery.of(context).size.width * 0.9,
                 child: Row(
                   children: [
-                    Text("Pulau : ", style: textTitleDetailPage),
+                    Text("Daerah : ", style: textTitleDetailPage),
                     const SizedBox(width: 10,),
                     DropdownButton(
                       hint: const Text("Semua"),
